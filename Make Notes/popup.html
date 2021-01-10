@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+	<script src="popup.js"></script>
+</head>
+<body style="width:200px;">
+    <div id="page_1" class="container-fluid py-3">
+        <div id="page_1" class="text-center">
+           <button class="btn btn-secondary px-3" id="start">start</button>
+           <button class="btn btn-primary px-3" id="pause">Pause</button>
+           <button class="btn btn-secondary mt-1" id="preview">See Preview</button>
+        </div>
+    </div>
+
+    <div id="page_2" class="container-fluid py-3">
+        <div class="form-group">
+           <label for="filename">File Name:</label>
+           <input type="text" class="form-control" id="filename" placeholder="filename" value="test">
+        </div>
+        <button class="btn btn-success" id="download">Download</button>
+        <button class="btn btn-danger" id="reset">Reset</button>
+    </div>
+
+
+</body>
+</html>
